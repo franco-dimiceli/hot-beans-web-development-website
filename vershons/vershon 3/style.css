@@ -1,0 +1,221 @@
+*{
+    <! -- open to cloced curly means it will be the same syle globally though the page-->
+    
+    margin: 0;
+    
+    padding: 0;
+    
+    font-family: sans-serif;
+    
+
+    
+}
+
+
+
+
+body{
+    
+   background-color: white;
+    
+    <! -- makes the background coler white-->
+    
+}
+
+nav {
+    
+    top:0;
+    
+    left:0;
+    
+    position: fixed;
+    
+    width:100vw;
+    
+    background-color:#FA6800;
+    
+    height: 175px;
+    
+
+}
+
+.wrapper {
+    
+    margin: 0 auto;
+    
+    width: 1600px;
+
+    <! -- a wrapper limits how far content can go for side to side -->
+    
+}
+
+
+a{
+        text-decoration:none;
+    
+        color:black;
+}
+
+
+
+
+    
+
+ul {
+        
+        
+        
+        
+} 
+    
+
+    
+ul li {
+        
+    line-height: 200px;
+        
+    display: inline-block;
+        
+    <! -- makes the link a box-->
+    
+    list-style: none;
+        
+    <! -- means that all of the links are on a line -->
+    
+        float: left;
+        
+    <! -- gets rid of the gap between links-->
+        
+        
+        
+}
+    
+    
+ul li a {
+    
+    <! -- the ul li a and everything in it controls the properties of the text-->
+        
+    color: black;
+        
+    font-size: 30px;
+        
+    padding: 0 80px;
+    
+    <! -- the gap between each nav bar button-->
+        
+    display: block;
+        
+    text-decoration: none;
+        
+    <! -- gets rid of the bullet points -->
+        
+}
+
+ul li a:hover{
+    
+    color: white;
+    
+    <! -- when the curcer hovers above the nav bar text it changes to the couler white-->
+    
+}
+    
+    
+.imgbox {
+    
+    display: grid;
+    
+    height: 100%;
+}
+
+.center-fit {
+            
+    max-width: 100%;
+            
+    max-height: 100vh;
+            
+    margin: auto;
+            
+}
+
+
+
+p{
+
+text-align: center;
+    
+  font-size: 35px;
+
+    
+}
+
+
+
+
+
+
+
+    
+<! -- lines 5 to 15 interact whith the html code so the image can be scaled whith browser window size-->
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
