@@ -1,162 +1,205 @@
 *{
-    <! -- open to cloced curly means it will be the same syle globally though the page-->
     
-    margin: 0;
+<! -- open to cloced curly means it will be the same syle globally though the page-->
     
-    padding: 0;
-    
-    font-family: sans-serif;
-    
-
-    
+font-family: sans-serif;
 }
 
-
-
-
 body{
+
+background-color: white;
     
-   background-color: white;
-    
-    <! -- makes the background coler white-->
-    
+<! -- makes the background coler white-->
 }
 
 nav {
     
-    top:0;
+top: 0;
     
-    left:0;
+left: 0;
     
-    position: fixed;
+position: fixed;
     
-    width:100vw;
+width: 100vw;
     
-    background-color:#FA6800;
+background-color: #FA6800;
     
-    height: 175px;
+height: 180px;
     
+font-size: 30px;
 
-}
-
-.wrapper {
-    
-    margin: 0 auto;
-    
-    width: 1600px;
-
-    <! -- a wrapper limits how far content can go for side to side -->
+z-index: 9999;
     
 }
-
+.wrapper {  
+    
+margin: 0 auto;
+    
+width: 1600px;
+    
+<! -- a wrapper limits how far content can go for side to side -->
+    
+}
 
 a{
-        text-decoration:none;
     
-        color:black;
+text-decoration:none;
+    
+color:white;
 }
 
-
-
-
-    
 
 ul {
-        
-        
-        
-        
-} 
-    
 
-    
+
+
+
+} 
+
+
+
 ul li {
-        
-    line-height: 200px;
-        
-    display: inline-block;
-        
-    <! -- makes the link a box-->
-    
-    list-style: none;
-        
-    <! -- means that all of the links are on a line -->
-    
-        float: left;
-        
-    <! -- gets rid of the gap between links-->
-        
-        
-        
+
+line-height: 120px;
+
+display: inline-block;
+
+<! -- makes the link a box-->
+
+list-style: none;
+
+<! -- means that all of the links are on a line -->
+
+    float: left;
+
+<! -- gets rid of the gap between links-->
+
+
+
 }
-    
-    
+
+
 ul li a {
-    
-    <! -- the ul li a and everything in it controls the properties of the text-->
-        
-    color: black;
-        
-    font-size: 30px;
-        
-    padding: 0 80px;
-    
-    <! -- the gap between each nav bar button-->
-        
-    display: block;
-        
-    text-decoration: none;
-        
-    <! -- gets rid of the bullet points -->
-        
+
+<! -- the ul li a and everything in it controls the properties of the text-->
+
+
+font-size: 50px;
+
+padding: 0 80px;
+
+<! -- the gap between each nav bar button-->
+
+display: block;
+
+text-decoration: none;
+
+<! -- gets rid of the bullet points -->
+
 }
 
 ul li a:hover{
-    
-    color: white;
-    
-    <! -- when the curcer hovers above the nav bar text it changes to the couler white-->
-    
+
+
+color: black;
+
+transition-duration: 0.4s;
+
+cursor: pointer;
+
+background-color: orangered;
+
+border-radius: 15px;
+
+
+
+<! -- when the curcer hovers above the nav bar text it changes to the couler white-->
+
 }
-    
-    
+
+
 .imgbox {
-    
-    display: grid;
-    
-    height: 100%;
+
+display: grid;
+
+height: 100%;
 }
 
 .center-fit {
-            
-    max-width: 100%;
-            
-    max-height: 100vh;
-            
-    margin: auto;
-            
+
+max-width: 100%;
+
+max-height: 100vh;
+
+margin: auto;
+
 }
 
+.web-developer {
+
+position: absolute;
+
+padding: 80px;
+
+right: 100px;
+
+max-width: 100%;
+
+max-height: 100vh;
+
+}
 
 
 p{
 
 text-align: center;
-    
-  font-size: 35px;
 
-    
+font-size: 35px;
+
+
+border: 3px solid #FA6800;
+
 }
 
 
 
 
+.web_developer_text_1 {
+
+width: 1600px;
+
+position: absolute;
+
+left: 50px;
+
+font-size: 25px;
+
+border: 3px solid #FA6800;
 
 
 
+
+}
+
+
+.social media buttons{
+
+text-align: center;
+   
+transition-duration: 0.4s;
+
+cursor: pointer;
+
+background-color: orangered;
     
+padding: 80px;
+    
+}
+
+
+
 <! -- lines 5 to 15 interact whith the html code so the image can be scaled whith browser window size-->
-    
+
     
 
 
