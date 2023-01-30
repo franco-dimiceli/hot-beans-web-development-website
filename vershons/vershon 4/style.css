@@ -138,7 +138,41 @@ margin: auto;
 
 }
 
-.web-developer {
+.web-developer1 {
+
+margin-top: 15vw;
+
+position: absolute;
+
+padding: 0.5vw;
+
+right: 5vw;
+
+max-width: 100%;
+
+max-height: 100vh;
+
+}
+
+.web-developer2 {
+
+margin-top: 15vw;
+
+position: absolute;
+
+padding: 0.5vw;
+
+right: 5vw;
+
+max-width: 100%;
+
+max-height: 100vh;
+
+}
+
+.web-developer3 {
+
+margin-top: 15vw;
 
 position: absolute;
 
@@ -155,6 +189,14 @@ max-height: 100vh;
 
 p{
 
+padding-top: 1vw;
+
+padding-left: 1vw;
+    
+padding-right: 1vw;
+    
+padding-bottom: 1vw;
+
 text-align: center;
 
 font-size: 35px;
@@ -165,6 +207,14 @@ border: 3px solid #FA6800;
 
 
 .jobs-avalible-text{
+
+padding-top: 1vw;
+
+padding-left: 1vw;
+    
+padding-right: 1vw;
+    
+padding-bottom: 1vw;
 
 width: 50vw;
   
@@ -178,7 +228,16 @@ border: 3px solid #FA6800;
 
 
 .web_developer_text_1 {
+    
+margin-top: 18vw;
 
+padding-top: 1vw;
+
+padding-left: 1vw;
+    
+padding-right: 1vw;
+    
+padding-bottom: 1vw;
 
 width: 50vw;    
 
@@ -195,26 +254,30 @@ border: 3px solid #FA6800;
 
 
 .social-media-buttons{
+    
+margin-top: 10vw;
 
-text-align: center;
+margin-left: 7vw;
+    
+margin-bottom: 5vw;
+
+display: inline-block;
+    
     
 }
 
 
-.jobs-avalible-images{
-
-
-position: absolute;
-    
-padding: 30vw 0vw;
-
-right: 5vw;
+.jobs-avalible-image1{
+  
+margin-left: 60vw;
 
 max-width: 100%;
 
-max-height: 100vh;   
+max-height: 100vh;  
     
 }
+
+
 
 
 
