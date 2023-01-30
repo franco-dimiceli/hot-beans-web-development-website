@@ -12,6 +12,8 @@ background-color: white;
 <! -- makes the background coler white-->
 }
 
+
+
 nav {
     
 top: 0;
@@ -35,7 +37,7 @@ z-index: 9999;
     
 margin: 0 auto;
     
-width: 90;
+width: 80vw;
     
 <! -- a wrapper limits how far content can go for side to side -->
     
@@ -86,7 +88,7 @@ ul li a {
 
 font-size: 50px;
 
-padding: 0 80px;
+padding: 3vw;
 
 <! -- the gap between each nav bar button-->
 
@@ -118,6 +120,7 @@ border-radius: 15px;
 }
 
 
+
 .imgbox {
 
 display: grid;
@@ -139,9 +142,9 @@ margin: auto;
 
 position: absolute;
 
-padding: 80px;
+padding: 0.5vw;
 
-right: 100px;
+right: 5vw;
 
 max-width: 100%;
 
@@ -156,57 +159,64 @@ text-align: center;
 
 font-size: 35px;
 
-
 border: 3px solid #FA6800;
 
 }
 
 
+.jobs-avalible-text{
 
-
-.web_developer_text_1 {
-
-width: 1600px;
-
-position: absolute;
-
-left: 50px;
-
-font-size: 25px;
-
-border: 3px solid #FA6800;
-
-
-
-
-}
-
-
-.social media buttons{
-
-text-align: center;
-   
-transition-duration: 0.4s;
-
-cursor: pointer;
-
-background-color: orangered;
-    
-padding: 80px;
-    
-}
-
-.jobs avalible text{
+width: 50vw;
   
 font-size: 25px;
-
-position: absolute;
 
 text-align: left;
 
 border: 3px solid #FA6800;
 
 }
+
+
+.web_developer_text_1 {
+
+
+width: 50vw;    
+
+text-align: left;
+
+font-size: 25px;
+
+border: 3px solid #FA6800;
+
+
+
+
+}
+
+
+.social-media-buttons{
+
+text-align: center;
+    
+}
+
+
+.jobs-avalible-images{
+
+
+position: absolute;
+    
+padding: 30vw 0vw;
+
+right: 5vw;
+
+max-width: 100%;
+
+max-height: 100vh;   
+    
+}
+
+
 
 
 
