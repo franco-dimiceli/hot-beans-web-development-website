@@ -10,6 +10,9 @@ body{
 background-color: white;
     
 <! -- makes the background coler white-->
+    
+padding-top: 180px;
+
 }
 
 
@@ -31,6 +34,8 @@ height: 180px;
 font-size: 30px;
 
 z-index: 9999;
+    
+
     
 }
 .wrapper {  
@@ -140,7 +145,7 @@ margin: auto;
 
 .web-developer1 {
 
-margin-top: 15vw;
+margin-top: 2vw;
 
 position: absolute;
 
@@ -156,7 +161,7 @@ max-height: 100vh;
 
 .web-developer2 {
 
-margin-top: 15vw;
+margin-top: 19vw;
 
 position: absolute;
 
@@ -172,7 +177,7 @@ max-height: 100vh;
 
 .web-developer3 {
 
-margin-top: 15vw;
+margin-top: 17vw;
 
 position: absolute;
 
@@ -253,16 +258,27 @@ border: 3px solid #FA6800;
 }
 
 
+.socail-media-postion{
+
+margin-top: 5vh;
+    
+margin-bottom: 5vh;
+
+margin-left: 3vw;
+    
+margin-right: 3vw;
+    
+}
+
+
 .social-media-buttons{
     
-margin-top: 10vw;
-
-margin-left: 7vw;
+margin-left: 4vw;
     
-margin-bottom: 5vw;
+margin-right: 4vw;
 
 display: inline-block;
-    
+       
     
 }
 
@@ -277,7 +293,47 @@ max-height: 100vh;
     
 }
 
+.input-box{
 
+margin-left: 10vw;
+
+margin-top: 20vh;
+    
+display: inline-block;
+    
+border: 3px solid #FA6800;
+    
+}
+
+.submit-button{
+
+margin-top: 10vh;
+    
+margin-bottom: 5vh;
+    
+text-align: center;   
+    
+}
+
+.submit-button:hover{
+    
+color: black;
+
+transition-duration: 0.4s;
+
+cursor: pointer;
+
+background-color: orangered;
+
+border-radius: 15px;   
+    
+}
+
+.reset-button{
+    
+margin-bottom: 5vh;
+    
+}
 
 
 
