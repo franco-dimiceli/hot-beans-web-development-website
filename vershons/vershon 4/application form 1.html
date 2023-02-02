@@ -47,30 +47,118 @@
     
 <div class = "wrapper" >
     
-
+<h1>Application form</h1>
 
 
 <form action = "results.html" method = "get">
     
 <! -- puts the result inputted onto a sperate page -->
 
-<div class = "input-box">
+<div class = "first-name">
     
-<lable>First name</lable> 
+<lable></lable> 
     
 <! -- lables the text box -->
     
-<input type = "text" name = "First name">
+    
+<input type = "text" name="firstname" required placeholder="Enter first name">
     
 </div>
     
-<div class = "input-box">
+<div class = "second-name">
     
-<lable>Second name</lable> 
+<lable></lable> 
     
-<input type = "text" name = "Second name">
+<input type = "text" name = "second name"  required placeholder="Enter second name">
     
 </div>
+    
+<div class = "email">
+    
+<label for = "email"></label>
+    
+    <input type = "email" name = "email" id = "email" required placeholder="Enter email">
+    
+</div>
+
+<div class="phone-num">
+    
+ <lable></lable>
+    
+    <input type="tel" name="phone number" placeholder="Enter phone number">
+    
+
+    
+</div>
+    
+<div class = "DOB">
+    
+<lable>Date of birth:</lable>
+    
+<input type="date" name="date" required min="1960-01-01" max="2007-01-01">
+    
+   
+</div>
+    
+<div class = "employment_status">
+    
+<label for="employment status">Employement status:</label>  
+    
+<select name="employment status" id="employement status" required>
+    
+    <option value="employed">Employed</option>
+    <option value="unemployed">Unemployed</option>
+    <option value="self-employed">Self-employed</option>
+    <option value="student">Student</option>
+    
+</select>
+    
+</div>
+    
+
+    
+<div class = "gender">
+    
+<label for="gender">Gender:</label>  
+    
+<select name="gender" id="gender" required>
+    
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+    <option value="outher">Outher</option>
+    
+</select>
+    
+</div>
+    
+<div class = "job">
+    
+<label for="job">Job:</label>  
+    
+<select name="job" id="job" required>
+    
+    <option value="fullstack">Fullstack</option>
+    <option value="front end developer">Front end developer</option>
+    <option value="back end developer">Back end developer</option>
+    <option value="Websphere portal developer">Websphere portal developer</option>
+    
+</select>
+    
+</div>
+
+    
+
+    
+<div class="personal_statement">
+  
+<label>Personal statement:</label>
+    
+    <textarea name="personal statement" required placeholder="Enter personal statement"></textarea>
+    
+    
+</div>
+    
+    
 
 <div class = "submit-button">
     
@@ -119,15 +207,6 @@
 
 
 </head>
-
-
-
-
-
-
-
-
-
 
 
 

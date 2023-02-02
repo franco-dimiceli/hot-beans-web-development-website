@@ -293,30 +293,255 @@ max-height: 100vh;
     
 }
 
-.input-box{
-
-margin-left: 10vw;
-
-margin-top: 20vh;
+h1{
     
-display: inline-block;
+font-family: sans-serif;
+
+margin-top: 15vh;
+    
+font-size: 35px;
+
+color: #FA6800;
+    
+font-weight: 600;
+    
+border-bottom: 3px solid black;
+    
+text-align: center;
+    
+
+    
+}
+
+.first-name{
+    
+font-family: sans-serif;
+
+margin-top: 5vh;
+    
+font-size: 25px;
+
+color: #FA6800;
+    
+font-weight: 600;
+    
+text-align: center;
+    
+}
+
+.first-name input{
+    
+    height: 5vh;
+    
+    width: 80vw;
+    
+    border: 3px solid #FA6800;
+    
+    text-align: center;
+    
+    font-size: 2.5vw;
+    
+}
+
+
+.second-name{
+
+font-family: sans-serif;
+
+margin-top: 2vh;
+    
+font-size: 25px;
+
+color: #FA6800;
+    
+font-weight: 600;
+    
+text-align: center;
+    
+}
+
+.second-name input{
+    
+    height: 5vh;
+    
+    width: 80vw;
+    
+    border: 3px solid #FA6800;
+    
+    text-align: center;
+    
+    font-size: 2.5vw;
+}
+
+.email{
+
+font-family: sans-serif;
+
+margin-top: 2vh;
+    
+font-size: 25px;
+
+color: #FA6800;
+    
+font-weight: 600;
+    
+text-align: center;
+    
+}
+
+.email input{
+    
+height: 5vh;
+    
+width: 80vw;
     
 border: 3px solid #FA6800;
     
+text-align: center;
+    
+font-size: 2.5vw;
+
 }
 
-.submit-button{
+.phone-num{
 
-margin-top: 10vh;
+font-family: sans-serif;
+
+margin-top: 2vh;
+    
+font-size: 25px;
+
+color: #FA6800;
+    
+font-weight: 600;
+    
+text-align: center;
+
+    
+}
+
+.phone-num input{
+    
+height: 5vh;
+    
+width: 80vw;
+    
+border: 3px solid #FA6800;
+    
+text-align: center;
+    
+font-size: 2.5vw;
+}
+
+.DOB{
+
+font-family: sans-serif;
+
+margin-top: 2vh;
+    
+font-size: 25px;
+
+color: #FA6800;
+    
+font-weight: 600;
+    
+text-align: center;
+    
+}
+
+.employment_status{
+
+font-family: sans-serif;
+
+margin-top: 2vh;
+    
+font-size: 25px;
+
+color: #FA6800;
+    
+font-weight: 600;
+    
+text-align: center;
+    
+}
+
+.gender{
+
+font-family: sans-serif;
+
+margin-top: 2vh;
+    
+font-size: 25px;
+
+color: #FA6800;
+    
+font-weight: 600;
+    
+text-align: center;
+    
+}
+
+.job{
+
+font-family: sans-serif;
+
+margin-top: 2vh;
+    
+font-size: 25px;
+
+color: #FA6800;
+    
+font-weight: 600;
+    
+text-align: center;
+    
+}
+
+.personal_statement{
+
+font-family: sans-serif;
+
+margin-top: 2vh;
+    
+font-size: 25px;
+
+color: #FA6800;
+    
+font-weight: 600;
+    
+text-align: center;
+    
+}
+
+
+.reset-button{
     
 margin-bottom: 5vh;
     
-text-align: center;   
+text-align: left;
+
+display: inline-block;
+    
+margin-left: 5vw;
+    
+
     
 }
 
-.submit-button:hover{
+.reset-button button{
     
+color: white;
+
+background-color: #FA6800;
+    
+height: 4vh;
+    
+width: 35vw;
+
+}
+
+.reset-button button:hover{
+
 color: black;
 
 transition-duration: 0.4s;
@@ -325,15 +550,56 @@ cursor: pointer;
 
 background-color: orangered;
 
-border-radius: 15px;   
+}
+
+
+.submit-button{
+
+margin-top: 10vh;
+    
+text-align: right;
+    
+color: white;
+    
+display: inline-block;
+    
+margin-right: 4vw;
+    
     
 }
 
-.reset-button{
+.submit-button button{
     
-margin-bottom: 5vh;
+color: white;
+
+background-color: #FA6800;
+    
+height: 4vh;
+    
+width: 35vw;
+
+}
+
+.submit-button button:hover{
+
+color: black;
+
+transition-duration: 0.4s;
+
+cursor: pointer;
+
+background-color: orangered;
+
+}
+
+.random-text{
+    
+    font-size: 25px;
+    
+    margin-top: 5vh;
     
 }
+
 
 
 
