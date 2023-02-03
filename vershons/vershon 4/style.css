@@ -449,6 +449,20 @@ text-align: center;
     
 }
 
+.employement-status-text{
+    
+font-family: sans-serif;
+    
+border: 3px solid #FA6800;
+    
+text-align: center;
+    
+font-size: 25px;
+    
+margin-top: 2vh;
+    
+}
+
 .employment_status{
 
 font-family: sans-serif;
@@ -462,6 +476,20 @@ color: #FA6800;
 font-weight: 600;
     
 text-align: center;
+    
+}
+
+.employment_status select{
+    
+height: 6vh;
+    
+width: 80vw;
+    
+border: 3px solid #FA6800;
+    
+text-align: center;
+    
+font-size: 2.5vw;
     
 }
 
@@ -481,6 +509,20 @@ text-align: center;
     
 }
 
+.gender select{
+    
+height: 6vh;
+    
+width: 80vw;
+    
+border: 3px solid #FA6800;
+    
+text-align: center;
+    
+font-size: 2.5vw;
+    
+}
+
 .job{
 
 font-family: sans-serif;
@@ -497,19 +539,49 @@ text-align: center;
     
 }
 
+.job select{
+    
+height: 6vh;
+    
+width: 80vw;
+    
+border: 3px solid #FA6800;
+    
+text-align: center;
+    
+font-size: 2.5vw;
+    
+}
+
 .personal_statement{
 
 font-family: sans-serif;
 
 margin-top: 2vh;
     
-font-size: 25px;
+font-size: 15px;
 
 color: #FA6800;
     
 font-weight: 600;
     
 text-align: center;
+    
+}
+
+.personal_statement textarea{
+    
+
+    
+height: 30vh;
+    
+width: 80vw;
+    
+border: 3px solid #FA6800;
+    
+text-align: center;
+    
+font-size: 2.5vw;
     
 }
 
