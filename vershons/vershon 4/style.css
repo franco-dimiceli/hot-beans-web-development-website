@@ -449,6 +449,19 @@ text-align: center;
     
 }
 
+.DOB input{
+    
+height: 5vh;
+    
+width: 80vw;
+    
+border: 3px solid #FA6800;
+    
+text-align: center;
+    
+font-size: 2.5vw;
+}
+
 .employement-status-text{
     
 font-family: sans-serif;
