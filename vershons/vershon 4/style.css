@@ -12,6 +12,8 @@ background-color: white;
 <! -- makes the background coler white-->
     
 padding-top: 180px;
+    
+
 
 }
 
@@ -53,6 +55,7 @@ a{
 text-decoration:none;
     
 color:white;
+    
 }
 
 
@@ -151,7 +154,7 @@ position: absolute;
 
 padding: 0.5vw;
 
-right: 5vw;
+right: 11vw;
 
 max-width: 100%;
 
@@ -167,7 +170,7 @@ position: absolute;
 
 padding: 0.5vw;
 
-right: 5vw;
+right: 8vw;
 
 max-width: 100%;
 
@@ -183,7 +186,7 @@ position: absolute;
 
 padding: 0.5vw;
 
-right: 5vw;
+right: 19vw;
 
 max-width: 100%;
 
@@ -317,7 +320,7 @@ text-align: center;
     
 font-family: sans-serif;
 
-margin-top: 5vh;
+margin-top: 3vh;
     
 font-size: 25px;
 
@@ -325,21 +328,47 @@ color: #FA6800;
     
 font-weight: 600;
     
-text-align: center;
+text-align: left;
+    
+display: inline-block;
     
 }
 
 .first-name input{
     
-    height: 5vh;
+height: 5vh;
     
-    width: 80vw;
+width: 35vw;
     
-    border: 3px solid #FA6800;
+border: 3px solid #FA6800;
     
-    text-align: center;
+text-align: left;
     
-    font-size: 2.5vw;
+font-size: 2vw;
+    
+display: inline-block;
+    
+
+    
+}
+
+.first-name-text{
+    
+font-family: sans-serif;
+    
+border: 3px solid #FA6800;
+    
+text-align: left;
+    
+font-size: 35px;
+    
+margin-top: 3vh;
+    
+width: 35vw;
+    
+display: inline-block;
+    
+
     
 }
 
@@ -348,7 +377,7 @@ text-align: center;
 
 font-family: sans-serif;
 
-margin-top: 2vh;
+margin-top: 3vh;
     
 font-size: 25px;
 
@@ -356,28 +385,56 @@ color: #FA6800;
     
 font-weight: 600;
     
-text-align: center;
+text-align: right;
+    
+display: inline-block;
     
 }
 
 .second-name input{
     
-    height: 5vh;
+height: 5vh;
     
-    width: 80vw;
+width: 35vw;
     
-    border: 3px solid #FA6800;
+border: 3px solid #FA6800;
     
-    text-align: center;
+text-align: left;
     
-    font-size: 2.5vw;
+font-size: 2vw;
+    
+display: inline-block;
+    
+margin-left: 9vw;
+}
+
+.second-name-text{
+    
+font-family: sans-serif;
+    
+border: 3px solid #FA6800;
+    
+text-align: left;
+    
+font-size: 35px;
+    
+margin-top: 3vh;
+    
+width: 35vw;
+
+display: inline-block;
+    
+margin-left: 8.6vw;
+    
+
+    
 }
 
 .email{
 
 font-family: sans-serif;
 
-margin-top: 2vh;
+margin-top: 3vh;
     
 font-size: 25px;
 
@@ -385,7 +442,9 @@ color: #FA6800;
     
 font-weight: 600;
     
-text-align: center;
+text-align: left;  
+    
+display: inline-block;
     
 }
 
@@ -393,21 +452,41 @@ text-align: center;
     
 height: 5vh;
     
-width: 80vw;
+width: 35vw;
     
 border: 3px solid #FA6800;
     
-text-align: center;
+text-align: left;
     
-font-size: 2.5vw;
+font-size: 2vw;
 
+display: inline-block;
+}
+
+.email-text{
+    
+font-family: sans-serif;
+    
+border: 3px solid #FA6800;
+    
+text-align: left;
+    
+font-size: 35px;
+    
+margin-top: 3vh;
+    
+width: 35vw;
+
+display: inline-block;   
+
+    
 }
 
 .phone-num{
 
 font-family: sans-serif;
 
-margin-top: 2vh;
+margin-top: 3vh;
     
 font-size: 25px;
 
@@ -415,7 +494,11 @@ color: #FA6800;
     
 font-weight: 600;
     
-text-align: center;
+text-align: right;
+    
+display: inline-block;
+    
+margin-left: 9vw;
 
     
 }
@@ -424,20 +507,43 @@ text-align: center;
     
 height: 5vh;
     
-width: 80vw;
+width: 35vw;
     
 border: 3px solid #FA6800;
     
-text-align: center;
+text-align: left;
     
-font-size: 2.5vw;
+font-size: 2vw;
+    
+display: inline-block;
 }
 
+.phone-number-text{
+    
+font-family: sans-serif;
+    
+border: 3px solid #FA6800;
+    
+text-align: left;
+    
+font-size: 35px;
+    
+margin-top: 3vh;
+    
+width: 35vw;
+    
+display: inline-block;
+    
+margin-left: 8.6vw;
+    
+
+    
+}
 .DOB{
 
 font-family: sans-serif;
 
-margin-top: 2vh;
+margin-top: 3vh;
     
 font-size: 25px;
 
@@ -445,7 +551,9 @@ color: #FA6800;
     
 font-weight: 600;
     
-text-align: center;
+text-align: left;
+    
+display: inline-block;
     
 }
 
@@ -453,34 +561,64 @@ text-align: center;
     
 height: 5vh;
     
-width: 80vw;
+width: 35vw;
     
 border: 3px solid #FA6800;
     
-text-align: center;
+text-align: left;
     
-font-size: 2.5vw;
+font-size: 2vw;
+    
+display: inline-block;
 }
 
+.DOB-text{
+    
+font-family: sans-serif;
+    
+border: 3px solid #FA6800;
+    
+text-align: left;
+    
+font-size: 35px;
+    
+margin-top: 3vh;
+    
+width: 35vw;
+    
+display: inline-block;
+
+    
+
+    
+}
 .employement-status-text{
     
 font-family: sans-serif;
     
 border: 3px solid #FA6800;
     
-text-align: center;
+text-align: left;
     
-font-size: 25px;
+font-size: 35px;
     
-margin-top: 2vh;
+margin-top: 3vh;
+    
+width: 35vw;
+    
+display: inline-block;
+
+margin-left: 8.6vw;   
+
     
 }
+
 
 .employment_status{
 
 font-family: sans-serif;
 
-margin-top: 2vh;
+margin-top: 3vh;
     
 font-size: 25px;
 
@@ -488,21 +626,25 @@ color: #FA6800;
     
 font-weight: 600;
     
-text-align: center;
+text-align: right;
+    
+display: inline-block;
+    
+margin-left: 9vw;
     
 }
 
 .employment_status select{
     
-height: 6vh;
+height: 5vh;
     
-width: 80vw;
+width: 35vw;
     
 border: 3px solid #FA6800;
     
-text-align: center;
+text-align: left;
     
-font-size: 2.5vw;
+font-size: 2vw;
     
 }
 
@@ -510,7 +652,7 @@ font-size: 2.5vw;
 
 font-family: sans-serif;
 
-margin-top: 2vh;
+margin-top: 3vh;
     
 font-size: 25px;
 
@@ -518,21 +660,45 @@ color: #FA6800;
     
 font-weight: 600;
     
-text-align: center;
+text-align: left;
+    
+display: inline-block;
     
 }
 
 .gender select{
     
-height: 6vh;
+height: 5vh;
     
-width: 80vw;
+width: 35vw;
     
 border: 3px solid #FA6800;
     
-text-align: center;
+text-align: left;
     
-font-size: 2.5vw;
+font-size: 2vw;
+    
+display: inline-block;
+    
+}
+
+.gender-text{
+    
+font-family: sans-serif;
+    
+border: 3px solid #FA6800;
+    
+text-align: left;
+    
+font-size: 35px;
+    
+margin-top: 3vh;
+    
+width: 35vw;
+    
+display: inline-block;
+
+
     
 }
 
@@ -540,7 +706,7 @@ font-size: 2.5vw;
 
 font-family: sans-serif;
 
-margin-top: 2vh;
+margin-top: 3vh;
     
 font-size: 25px;
 
@@ -548,21 +714,47 @@ color: #FA6800;
     
 font-weight: 600;
     
-text-align: center;
+text-align: right;
+    
+display: inline-block;
     
 }
 
 .job select{
     
-height: 6vh;
+height: 5vh;
     
-width: 80vw;
+width: 35vw;
     
 border: 3px solid #FA6800;
     
-text-align: center;
+text-align: left;
     
-font-size: 2.5vw;
+font-size: 2vw;
+    
+display: inline-block;
+    
+margin-left: 9vw;
+    
+}
+
+.job-text{
+    
+font-family: sans-serif;
+    
+border: 3px solid #FA6800;
+    
+text-align: left;
+    
+font-size: 35px;
+    
+margin-top: 3vh;
+    
+width: 35vw;
+    
+display: inline-block;
+
+margin-left: 8.6vw;
     
 }
 
@@ -570,7 +762,7 @@ font-size: 2.5vw;
 
 font-family: sans-serif;
 
-margin-top: 2vh;
+margin-top: 3vh;
     
 font-size: 15px;
 
@@ -594,7 +786,27 @@ border: 3px solid #FA6800;
     
 text-align: center;
     
-font-size: 2.5vw;
+font-size: 2vw;
+    
+}
+
+.personal-statement-text{
+    
+font-family: sans-serif;
+    
+border: 3px solid #FA6800;
+    
+text-align: center;
+    
+font-size: 35px;
+    
+margin-top: 3vh;
+    
+width: 40vw;
+    
+margin-left: 20vw;
+    
+margin-right: 20vw;
     
 }
 
