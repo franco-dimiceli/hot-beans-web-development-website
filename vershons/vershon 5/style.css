@@ -3,6 +3,7 @@
 <! -- open to cloced curly means it will be the same syle globally though the page-->
     
 font-family: sans-serif;
+    
 }
 
 body{
@@ -13,8 +14,19 @@ background-color: white;
     
 padding-top: 180px;
     
+display: flex;
+    
+flex-direction: column;
+    
+min-height: 100vh;
 
 
+}
+
+#main{
+    
+    flex-grow: 1;
+    
 }
 
 
@@ -143,6 +155,8 @@ max-width: 100%;
 max-height: 100vh;
 
 margin: auto;
+    
+
     
 
 }
@@ -909,6 +923,9 @@ border-top: solid 3px #FA6800;
     
 text-align: center;
     
+margin-top: 8vh;
+    
+height: 15vh;
     
     
     
