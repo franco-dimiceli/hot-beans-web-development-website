@@ -156,9 +156,31 @@ max-height: 100vh;
 
 margin: auto;
     
-
+margin-top: 5vh;
     
+margin-bottom: 5vh;
+    
+}
 
+
+@media only screen and (max-width: 900px) {
+    
+  
+.center-fit {
+
+max-width: 100%;
+
+max-height: 100vh;
+
+text-align: center;
+    
+margin-top: 0.5vh;
+    
+margin-bottom: 0.5vh;
+    
+}
+    
+    
 }
 
 .web-developer1 {
@@ -323,6 +345,7 @@ text-align: center;
 font-size: 35px;
 
 border: 3px solid #FA6800;
+    
 
 }
 
@@ -484,6 +507,8 @@ display: inline-block;
 
     
 }
+
+
 
 
 .second-name{
@@ -871,6 +896,454 @@ margin-left: 8.6vw;
     
 }
 
+@media only screen and (max-width: 1140px) {
+    
+.first-name{
+    
+font-family: sans-serif;
+
+margin-top: 3vh;
+    
+font-size: 25px;
+
+color: #FA6800;
+    
+font-weight: 600;
+    
+text-align: left;
+    
+display: inline-block;
+    
+}
+
+.first-name input{
+    
+height: 5vh;
+    
+width: 35vw;
+    
+border: 3px solid #FA6800;
+    
+text-align: left;
+    
+font-size: 2vw;
+    
+display: inline-block;
+    
+
+    
+}
+
+.first-name-text{
+    
+font-family: sans-serif;
+    
+border: 3px solid #FA6800;
+    
+text-align: left;
+    
+font-size: 35px;
+    
+margin-top: 3vh;
+    
+width: 35vw;
+    
+display: inline-block;
+    
+
+    
+}
+
+
+
+
+.second-name{
+
+font-family: sans-serif;
+
+margin-top: 3vh;
+    
+font-size: 25px;
+
+color: #FA6800;
+    
+font-weight: 600;
+    
+text-align: right;
+    
+display: inline-block;
+    
+}
+
+.second-name input{
+    
+height: 5vh;
+    
+width: 35vw;
+    
+border: 3px solid #FA6800;
+    
+text-align: left;
+    
+font-size: 2vw;
+    
+display: inline-block;
+    
+margin-left: 7.8vw;
+}
+
+.second-name-text{
+    
+font-family: sans-serif;
+    
+border: 3px solid #FA6800;
+    
+text-align: left;
+    
+font-size: 35px;
+    
+margin-top: 3vh;
+    
+width: 35vw;
+
+display: inline-block;
+    
+margin-left: 7vw;
+    
+
+    
+}
+
+.email{
+
+font-family: sans-serif;
+
+margin-top: 3vh;
+    
+font-size: 25px;
+
+color: #FA6800;
+    
+font-weight: 600;
+    
+text-align: left;  
+    
+display: inline-block;
+    
+}
+
+.email input{
+    
+height: 5vh;
+    
+width: 35vw;
+    
+border: 3px solid #FA6800;
+    
+text-align: left;
+    
+font-size: 2vw;
+
+display: inline-block;
+}
+
+.email-text{
+    
+font-family: sans-serif;
+    
+border: 3px solid #FA6800;
+    
+text-align: left;
+    
+font-size: 35px;
+    
+margin-top: 3vh;
+    
+width: 35vw;
+
+display: inline-block;   
+
+    
+}
+
+.phone-num{
+
+font-family: sans-serif;
+
+margin-top: 3vh;
+    
+font-size: 25px;
+
+color: #FA6800;
+    
+font-weight: 600;
+    
+text-align: right;
+    
+display: inline-block;
+    
+margin-left: 7.8vw;
+
+    
+}
+
+.phone-num input{
+    
+height: 5vh;
+    
+width: 35vw;
+    
+border: 3px solid #FA6800;
+    
+text-align: left;
+    
+font-size: 2vw;
+    
+display: inline-block;
+}
+
+.phone-number-text{
+    
+font-family: sans-serif;
+    
+border: 3px solid #FA6800;
+    
+text-align: left;
+    
+font-size: 35px;
+    
+margin-top: 3vh;
+    
+width: 35vw;
+    
+display: inline-block;
+    
+margin-left: 7vw;
+    
+
+    
+}
+.DOB{
+
+font-family: sans-serif;
+
+margin-top: 3vh;
+    
+font-size: 25px;
+
+color: #FA6800;
+    
+font-weight: 600;
+    
+text-align: left;
+    
+display: inline-block;
+    
+}
+
+.DOB input{
+    
+height: 5vh;
+    
+width: 35vw;
+    
+border: 3px solid #FA6800;
+    
+text-align: left;
+    
+font-size: 2vw;
+    
+display: inline-block;
+}
+
+.DOB-text{
+    
+font-family: sans-serif;
+    
+border: 3px solid #FA6800;
+    
+text-align: left;
+    
+font-size: 35px;
+    
+margin-top: 3vh;
+    
+width: 35vw;
+    
+display: inline-block;
+
+    
+
+    
+}
+.employement-status-text{
+    
+font-family: sans-serif;
+    
+border: 3px solid #FA6800;
+    
+text-align: left;
+    
+font-size: 35px;
+    
+margin-top: 3vh;
+    
+width: 35vw;
+    
+display: inline-block;
+
+margin-left: 7vw;   
+
+    
+}
+
+
+.employment_status{
+
+font-family: sans-serif;
+
+margin-top: 3vh;
+    
+font-size: 25px;
+
+color: #FA6800;
+    
+font-weight: 600;
+    
+text-align: right;
+    
+display: inline-block;
+    
+margin-left: 7.8vw;
+    
+}
+
+.employment_status select{
+    
+height: 5vh;
+    
+width: 35vw;
+    
+border: 3px solid #FA6800;
+    
+text-align: left;
+    
+font-size: 2vw;
+    
+}
+
+.gender{
+
+font-family: sans-serif;
+
+margin-top: 3vh;
+    
+font-size: 25px;
+
+color: #FA6800;
+    
+font-weight: 600;
+    
+text-align: left;
+    
+display: inline-block;
+    
+}
+
+.gender select{
+    
+height: 5vh;
+    
+width: 35vw;
+    
+border: 3px solid #FA6800;
+    
+text-align: left;
+    
+font-size: 2vw;
+    
+display: inline-block;
+    
+}
+
+.gender-text{
+    
+font-family: sans-serif;
+    
+border: 3px solid #FA6800;
+    
+text-align: left;
+    
+font-size: 35px;
+    
+margin-top: 3vh;
+    
+width: 35vw;
+    
+display: inline-block;
+
+
+    
+}
+
+.job{
+
+font-family: sans-serif;
+
+margin-top: 3vh;
+    
+font-size: 25px;
+
+color: #FA6800;
+    
+font-weight: 600;
+    
+text-align: right;
+    
+display: inline-block;
+    
+}
+
+.job select{
+    
+height: 5vh;
+    
+width: 35vw;
+    
+border: 3px solid #FA6800;
+    
+text-align: left;
+    
+font-size: 2vw;
+    
+display: inline-block;
+    
+margin-left: 7.8vw;
+    
+}
+
+.job-text{
+    
+font-family: sans-serif;
+    
+border: 3px solid #FA6800;
+    
+text-align: left;
+    
+font-size: 35px;
+    
+margin-top: 3vh;
+    
+width: 35vw;
+    
+display: inline-block;
+
+margin-left: 7vw;
+    
+}    
+    
+}
+
 .personal_statement{
 
 font-family: sans-serif;
@@ -1030,56 +1503,61 @@ height: 15vh;
 }
 
 
+.changeing-text{
+    
+    
+color: black;
+    
+}
 
 
+.hamburger{
+    
+
+    
+position: relative;
+    
+width: 30px;
+    
+height: 4px;
+    
+background-color: white;
+    
+cursor: pointer;
+    
+}
+
+.hamburger:before, .hamburger:after{
+    
+
+    
+content: "";
+    
+position: absolute;
+    
+height: 4px;
+    
+left: 0;
+    
+transition: 0.4s;
+        
+}
+
+.hamburger:before{
+    
+    top: -10px;
+    
+}
+
+.hamburger:after{
+    
+    top: 10px;
+}
 
 
 <! -- lines 5 to 15 interact whith the html code so the image can be scaled whith browser window size-->
 
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
