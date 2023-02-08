@@ -48,10 +48,9 @@ height: 180px;
 font-size: 30px;
 
 z-index: 9999;
-    
 
-    
 }
+
 .wrapper {  
     
 margin: 0 auto;
@@ -131,7 +130,7 @@ cursor: pointer;
 
 background-color: orangered;
 
-border-radius: 15px;
+
 
 
 
@@ -1511,53 +1510,116 @@ color: black;
 }
 
 
-.hamburger{
+
+
+.toggle-button{
+    
+    position: absolute;
+    
+    top: 8vh;
+    
+    left: 3vw;
+    
+    display: none;
+    
+    flex-direction: column;
+    
+    justify-content: space-between;
+    
+    width: 30px;
+    
+    height: 21px;
     
 
     
-position: relative;
-    
-width: 30px;
-    
-height: 4px;
-    
-background-color: white;
-    
-cursor: pointer;
     
 }
 
-.hamburger:before, .hamburger:after{
+.toggle-button .bar{
     
+    height: 3px;
+    
+    width 100%;
+    
+    background-color: white;
+    
+}
 
+
+
+
+@media screen and (max-width: 1050px){
     
-content: "";
-    
-position: absolute;
-    
-height: 4px;
-    
-left: 0;
-    
-transition: 0.4s;
+    .toggle-button{
         
-}
-
-.hamburger:before{
+        display: flex;
+        
+    }
     
-    top: -10px;
+    nav{
+        
+        flex-direction: column;
+        
+        align-items: flex-start;
+        
+    }
+
+
+    
+    .navbar-links{
+
+        display: none;
+        
+        width: 100%       
+    }
+    
+    .navbar-links ul{
+        
+        width: 100%;
+        
+        flex-direction: column;
+        
+    }
+    
+    .navbar-links ul li{
+        
+        text-align: left;
+        
+    }
+    
+
+    
+    .navbar-links.active{
+        
+        display: flex;
+        
+        flex-direction: column;
+        
+        background-color: #FA6800;
+        
+        width: 55vw;
+        
+    }
+
     
 }
-
-.hamburger:after{
-    
-    top: 10px;
-}
-
 
 <! -- lines 5 to 15 interact whith the html code so the image can be scaled whith browser window size-->
 
     
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
